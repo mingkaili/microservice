@@ -1,0 +1,10 @@
+# https://blog.csdn.net/tianyaleixiaowu/article/details/78184793 高可用教程
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:8762/eureka/
+
