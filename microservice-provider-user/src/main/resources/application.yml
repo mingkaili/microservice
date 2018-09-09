@@ -1,5 +1,6 @@
-server:
-  port: 8000
+# 在启动命令中加入端口号设置，分别用--server.port=8000和--server.port=8001两个命令启动应用，可以在eureka中实现服务器段负载均衡
+#server:
+#  port: 8000
 spring:
   application:
     name: microservice-provider-user
