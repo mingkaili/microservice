@@ -8,3 +8,4 @@ eureka:
     serviceUrl:
       defaultZone: http://peer2:8762/eureka/
 
+

@@ -18,6 +18,7 @@
         <module>microservice-hystrix</module>
         <module>microservice-hystrix-dashboard</module>
         <module>microservice-hystrix-feign</module>
+        <module>microservice-hystrix-turbine</module>
         <module>microservice-provider-user</module>
     </modules>
 
