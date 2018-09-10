@@ -16,7 +16,6 @@
     <groupId>com.limk.cloud</groupId>
     <artifactId>microservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath/>
   </parent>
 
   <dependencies>

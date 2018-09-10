@@ -16,6 +16,7 @@
         <module>microservice-consumer-ribbon</module>
         <module>microservice-eureka</module>
         <module>microservice-hystrix</module>
+        <module>microservice-hystrix-dashboard</module>
         <module>microservice-hystrix-feign</module>
         <module>microservice-provider-user</module>
     </modules>
