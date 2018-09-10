@@ -12,7 +12,11 @@
     <description>Demo project for Spring Boot</description>
 
     <modules>
+        <module>microservice-consumer-feign</module>
+        <module>microservice-consumer-ribbon</module>
         <module>microservice-eureka</module>
+        <module>microservice-hystrix</module>
+        <module>microservice-hystrix-feign</module>
         <module>microservice-provider-user</module>
     </modules>
 
