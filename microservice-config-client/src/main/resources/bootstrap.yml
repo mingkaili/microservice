@@ -3,11 +3,9 @@ spring:
     name: microservice-config-client
   cloud:
     config:
-      uri: http://config-server:8040/
+      uri: http://localhost:8040/
       profile: dev
       label: master
-      enabled: true
-#      discovery:
-#        enabled: false
-#        service-id: microservice-config-server
-      fail-fast: true
+#management:
+#  security:
+#    enabled: false
