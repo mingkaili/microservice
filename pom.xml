@@ -12,6 +12,8 @@
     <description>Demo project for Spring Boot</description>
 
     <modules>
+        <module>microservice-config-client</module>
+        <module>microservice-config-server</module>
         <module>microservice-consumer-feign</module>
         <module>microservice-consumer-ribbon</module>
         <module>microservice-eureka</module>
