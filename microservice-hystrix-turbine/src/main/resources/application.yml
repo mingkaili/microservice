@@ -3,14 +3,10 @@ spring:
     name: microservice-hystrix-turbine
 server:
   port: 8031
-security:
-  basic:
-    enabled: false
 turbine:
-  aggregator:
-    clusterConfig: default
-  appConfig: microservice-hystrix,microservice-hystrix-feign
-  clusterNameExpression: new String("default")
+  appConfig: microservice-consumer-hystrix-ribbon,microservice-consumer-hystrix-feign
+  combine-host-port: true
+  clusterNameExpression: "'default'"
 eureka:
   client:
     serviceUrl:
