@@ -9,5 +9,4 @@ spring:
         git:
           uri: https://github.com/mingkaili/microservice/
           search-paths: config-repo
-          username: lmk57320402@126.com
-          password: 1234567890ppPP
+      label: master
