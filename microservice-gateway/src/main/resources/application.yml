@@ -1,0 +1,17 @@
+server:
+  port: 8050
+spring:
+  application:
+    name: microservice-gateway
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+  instance:
+    hostname: gateway-api
+zuul:
+  routes:
+    movie:
+      path: /movie/**
+      service-id: microservice-consumer-hystrix-ribbon
+  ignored-services: microservice-provider-user
